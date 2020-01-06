@@ -1,0 +1,13 @@
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(100, 183, 255);
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 20px 0 20px;
+}

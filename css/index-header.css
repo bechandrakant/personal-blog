@@ -1,0 +1,26 @@
+@import url("subscribe-button.css");
+
+header {
+  margin: 20px;
+  border-bottom: 2px solid gray;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+nav>h1 {
+  flex: 1;
+  font-style: italic;
+  color: green;
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}

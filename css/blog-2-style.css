@@ -1,0 +1,85 @@
+body {
+  font-family: Helvetica, Arial,  sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.container h1 {
+  color: green;
+  text-align: center;
+  line-height: 1rem;
+  margin: 20px 0 0 0;
+}
+
+.container h3 {
+  color: gray;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.quote {
+  border-left: 4px solid gray;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.conclusion a {
+  margin: 15px;
+}
+
+.author-container {
+  display: flex;
+}
+
+.author-info {
+  padding: 10px;
+}
+
+.author-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #00f;
+}
+
+.author-title {
+  font-style: italic;
+}
+
+.avatar {
+  order: -1;
+}
+
+.social-media>ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.social-media ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+
+  .container h1 {
+    color: green;
+    text-align: center;
+    line-height: 2rem;
+    margin: 20px 0 0 0;
+  }
+}

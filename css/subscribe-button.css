@@ -1,0 +1,21 @@
+#subscribe-btn {
+  font-size: 1rem;
+  color: white;
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  #subscribe-btn {
+    margin-bottom: 20px;
+    width: 200px;
+  }
+}
