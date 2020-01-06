@@ -1,0 +1,1 @@
+[Deployed at](https://ckdetected.github.io/personal-blog/)
